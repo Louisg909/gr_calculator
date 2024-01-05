@@ -1,0 +1,4 @@
+- Types in notation in LaTeX form
+- Program interprests the LaTeX form
+- Program does GR calculations
+- Program displays result in LaTeX form
