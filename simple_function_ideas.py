@@ -1,4 +1,5 @@
 import python_debug as dbg
+from translate import translate as trs
 # two modes:
 #       [t, x, y, z] mode
 #       [t, r, \theta, \phi] mode
@@ -69,5 +70,6 @@ def latex_interpretation(line):
                     n += 1
                     new_line += index_translator(line[n])
     return new_line
-dbg.debug("Cheese")
-print(latex_interpretation("2x_{txyp}"))
+#dbg.debug("Cheese")
+#print(latex_interpretation("2x_{txyp}"))
+trs()

@@ -40,6 +40,9 @@ class Metric:
         string += "}"
         return string
 
+    def covarient(self):
+
+
 
 g = Metric()
 
